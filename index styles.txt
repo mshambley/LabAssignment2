@@ -16,18 +16,15 @@ html, body {
 .circle {
     border-radius: 50%;
 }
-
 #home-container {
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
-.drop-shadow {
-    text-shadow: 1px 2px 3px #000;
-}
+
 .r1 {
     background-color: black;
-    background-image: url('img/david.jpg');
+    background-image: url('img/david.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -51,13 +48,11 @@ html, body {
 .home-main-nav > ul > li > a {
     color: #FFF;
     text-decoration: none;
-    padding: 15px .5em;
-    text-shadow: 2px 2px 3px #000;
+    padding: 15px 5em;
     /*font-size: 1.35em; */
 }
 .home-main-nav > ul > li:first-child{
     font-family: 'Cookie', cursive;
-    font-size: 35px;
 }
 .home-main-nav > ul > li:first-child a:hover {
     background-color: transparent;
